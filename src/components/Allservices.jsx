@@ -15,7 +15,7 @@ export default function Allservices() {
         <div>
           <div className="card text-center mb-3" style={{width:"18rem"}}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">Financial Consulting</h5>
               <p className="card-text">
                 With supporting text below as a natural lead-in to additional
                 content.
@@ -26,7 +26,7 @@ export default function Allservices() {
         <div>
           <div className="card text-center mb-3" style={{width:"18rem"}}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">Content Marketing</h5>
               <p className="card-text">
                 With supporting text below as a natural lead-in to additional
                 content.
@@ -38,7 +38,7 @@ export default function Allservices() {
         <div>
           <div className="card text-center mb-3" style={{width:"18rem"}}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">Finance Advice</h5>
               <p className="card-text">
                 With supporting text below as a natural lead-in to additional
                 content.
