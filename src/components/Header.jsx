@@ -3,16 +3,16 @@ import Crop54SharpIcon from "@mui/icons-material/Crop54Sharp";
 
 export default function Header() {
   return (
-    <div className="d-flex justify-content-around">
-      <div className="d-flex p-3 gap-1 mt-2">
+    <div className="d-flex justify-content-around" style={{ marginLeft:"70px" }}>
+      <div className="d-flex p-3 gap-1 mt-2 ">
         <Crop54SharpIcon style={{ color: "cyan" }} />
         <p style={{ fontWeight: "bold" }}>Bisnes</p>
       </div>
       <div
         className="d-flex p-3 gap-3 mx-5"
-        style={{ fontSize: "15px", fontWeight: "500" }}
+        style={{ fontSize: "15px", fontWeight: "500"}}
       >
-        <nav className="navbar navbar-expand-lg ">
+        <nav className="navbar navbar-expand-lg " style={{ marginLeft:"100px" }}>
           <div className="container-fluid">
             <button
               className="navbar-toggler"
