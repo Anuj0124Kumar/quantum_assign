@@ -3,21 +3,24 @@ import React from "react";
 export default function Footer() {
   return (
     <div
-      className="d-flex justify-content-around"
+      className="d-flex justify-content-around footerCompo"
       style={{ backgroundImage:"url('https://thumbs.dreamstime.com/b/close-up-side-view-right-female-hand-holding-blank-screen-phone-dark-background-close-up-side-view-right-female-164251508.jpg')",backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat' }}
     >
-      <div className="" style={{ padding: "100px", marginLeft: "140px" }}>
+      <div className="subscribe" style={{ padding: "100px", marginLeft: "140px" }}>
+        <div className="textAlign">
         <p style={{ fontWeight: "700", fontSize: "30px" }}>
           Subscribe Our Newsletter For More Update
         </p>
+        </div>
+        <div className="textAlign">
         <p style={{ fontSize: "15px" }}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
-         
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum        
         </p>
+        </div>
         
       </div>
-      <div >
+      <div className="Input-box">
         <div className="input-group mb-3" style={{marginTop:"160px",width:"370px"}} >
           
           <input

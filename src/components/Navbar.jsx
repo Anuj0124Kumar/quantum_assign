@@ -4,24 +4,25 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import EmailIcon from "@mui/icons-material/Email";
 import QueryBuilderIcon from "@mui/icons-material/QueryBuilder";
+import './navbar.css';
 
 export default function Navbar() {
   return (
-    <div>
+    <div >
       <nav className="bg-primary" data-bs-theme="dark">
-        <div className="d-flex justify-content-around ">
-          <div className="d-flex">
-            <div className="d-flex p-2 gap-1">
+        <div className="d-flex justify-content-around main-nav">
+          <div className="d-flex main-nav">
+            <div className="d-flex p-2 gap-1 col-gap">
               <QueryBuilderIcon style={{ color: "white" }} />
               <p style={{color:"white"}}>we are open: 24/7</p>
             </div>
-            <div><p className="p-2" style={{ color: "white" }}>|</p></div>
-            <div className="d-flex p-2 gap-1">
+            <div><p className="p-2 line" style={{ color: "white" }}>|</p></div>
+            <div className="d-flex p-2 gap-1 col-gap">
               <EmailIcon style={{ color: "white" }} />
               <p style={{color:"white"}}>mail@gmal.com</p>
             </div>
           </div>
-          <div className="d-flex p-2 gap-2">
+          <div className="d-flex p-2 gap-2 col-gap">
             <TwitterIcon style={{ color: "white" }} />
             <LinkedInIcon style={{ color: "white" }} />
             <FacebookIcon style={{ color: "white" }} />
